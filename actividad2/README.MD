@@ -45,7 +45,7 @@ mkdir -p $LOG_DIR
 
 # Crear el archivo de log
 
-LOG_FILE="$LOG_DIR/actividad2.log"
+LOG_FILE="$LOG_DIR/saludos.log"
 echo $MESSAGE > $LOG_FILE
 
 # Imprimir el mensaje
