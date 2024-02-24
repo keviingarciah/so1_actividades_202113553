@@ -43,7 +43,7 @@ WantedBy=multi-user.target
 Habilita el servicio para que se inicie automáticamente al arrancar el sistema.
 
 ```bash
-sudo systemctl enable saludo
+sudo systemctl enable saludo.service
 ```
 
 ## Iniciar el servicio
@@ -51,7 +51,7 @@ sudo systemctl enable saludo
 Inicia el servicio.
 
 ```bash
-sudo systemctl start saludo
+sudo systemctl start saludo.service
 ```
 
 ## Verificar el servicio
@@ -59,7 +59,7 @@ sudo systemctl start saludo
 Verifica que el servicio esté corriendo.
 
 ```bash
-sudo systemctl status saludo
+sudo systemctl status saludo.service
 ```
 
 ## Detener el servicio
@@ -67,7 +67,7 @@ sudo systemctl status saludo
 Para detener el servicio, ejecuta:
 
 ```bash
-sudo systemctl stop saludo
+sudo systemctl stop saludo.service
 ```
 
 ## Deshabilitar el servicio
@@ -75,7 +75,7 @@ sudo systemctl stop saludo
 Para deshabilitar el servicio, ejecuta:
 
 ```bash
-sudo systemctl disable saludo
+sudo systemctl disable saludo.service
 ```
 
 ## Eliminar el servicio
